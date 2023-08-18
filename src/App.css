@@ -103,9 +103,9 @@
 
 
 /* -------------- Explore Section ------------ */
-.explore-container {
+/* .explore-container {
   border: 2px solid red;
-}
+} */
 
 .explore-heading {
   color: #2D2D2D;
@@ -140,23 +140,93 @@
   top: -27.7%;
   right: 8%;
 }
+.connect-left-box {
+  border: 2px solid red;
+  width: 45%;
+}
+
+.connect-left-box-text {
+  color: #2D2D2D;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 117%;
+}
+
+.connect-left-box-subtext {
+  background: var(--purple-20, linear-gradient(360deg, #AD00FF 11.46%, #E3A7FF 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.connect-right-box {}
+
 
 .technology-box {
   border: 0.25px solid #FFC700;
   background: #FFFAED;
 }
 
+.technology-left-box {
+  border: 2px solid red;
+  width: 45%;
+}
+
+.technology-left-box-text {
+  color: #2D2D2D;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 117%;
+}
+
+.technology-left-box-subtext {
+  background: linear-gradient(360deg, #FF7A00 11.46%, #FFB7A7 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.technology-right-box {}
+
 .learn-box {
   border: 0.25px solid #0085FF;
   background: #EDF8FF;
 }
 
+.learn-left-box {
+  border: 2px solid red;
+  width: 45%;
+}
+
+.learn-left-box-text {
+  color: #2D2D2D;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 117%;
+}
+
+.learn-left-box-subtext {
+  background: linear-gradient(360deg, #0085FF 11.46%, #A7D5FF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.learn-right-box {}
+
 /* ---------- Course Offer Section ----- */
 
 .offer-course-section {
-  border: 2px solid red;
   /* padding-left: 30px; */
   margin-left: 80px;
+  height: 407px;
+  overflow: hidden;
 }
 
 .offer-course-section1 {
@@ -195,6 +265,19 @@
   border-radius: 144px;
   border: 0.25px solid #2D2D2D;
   background: #FFF;
+}
+
+.course-offer-carousel {
+  top: 0%;
+  left: 50%;
+}
+
+.course-offer-carousel-card1 {
+  width: 406px;
+  height: 406px;
+  border-radius: 24px;
+  border: 0.25px solid var(--stroke, #2D2D2D);
+  background: rgba(246, 246, 246, 0.50);
 }
 
 /* ------ Key Section ----------- */
@@ -348,6 +431,7 @@
   border-bottom: 1px solid #2D2D2D;
   cursor: pointer;
 }
+
 .faq-question-li:first-child {
   border-top: 1px solid #2D2D2D;
 

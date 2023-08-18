@@ -69,18 +69,30 @@ export default function Dashboard() {
       {/* --------------- Explore Section ------------ */}
       <section className="explore-container mt-5">
         <h1 className="explore-heading text-center">Explore <span className="explore-subheading">Vidyaverse</span></h1>
-        <div className="position-relative explore-box connect-box mx-auto">
+        <div className="position-relative explore-box connect-box mx-auto px-5 py-4">
           <img className="seating-astro" src={SeatingAstro} alt="Seating Astronaut" />
+          <div className="connect-left-box">
+            <h3 className="connect-left-box-text"><span className="connect-left-box-subtext">Connect.</span> Grow. Thrive</h3>
+          </div>
+          <div className="connect-right-box"></div>
         </div>
-        <div className="position-relative explore-box technology-box mx-auto my-5">
+        <div className="explore-box technology-box mx-auto my-5 px-5 py-4">
+          <div className="technology-left-box">
+            <h3 className="technology-left-box-text"><span className="technology-left-box-subtext">Explore</span>  WEB3 Technologies</h3>
+          </div>
+          <div className="technology-right-box"></div>
         </div>
-        <div className="position-relative explore-box learn-box mx-auto my-5">
+        <div className="explore-box learn-box mx-auto my-5 px-5 py-4">
+          <div className="learn-left-box">
+            <h3 className="learn-left-box-text"><span className="learn-left-box-subtext">Learn</span> and Fun</h3>
+          </div>
+          <div className="learn-right-box"></div>
         </div>
       </section>
 
       {/* -------------- Course Offer Section ----------- */}
 
-      <section className="offer-course-section mt-5 d-flex">
+      <section className="offer-course-section mt-5 position-relative">
         <div className="offer-course-section1">
           <p className="course-offer-title"> The <span className="courses-text-color">Courses</span> <br />we offer</p>
           <p className="course-offer-text">Embark on a transformative Web3 learning experience. Explore decentralized technologies, collaborate with experts, and unlock limitless possibilities.</p>
@@ -88,7 +100,10 @@ export default function Dashboard() {
             <img src={arrowIcon} alt="arrow icon btn" className="mx-2" />
           </button>
         </div>
-        <div></div>
+        <div className="course-offer-carousel d-flex position-absolute ">
+          <div className="course-offer-carousel-card1"></div>
+          <div className="course-offer-carousel-card1 mx-4"></div>
+        </div>
       </section>
 
       {/* -------------- Key Section --------------------- */}
@@ -128,7 +143,7 @@ export default function Dashboard() {
         <h1 className="testinomial-title text-center"><span className="key-section-subtitle">Success</span> stories</h1>
         <section className="testinomial-sub-section d-flex justify-content-around">
           <div className="current-testinomial">
-            <img src={currentTestinomialImg} alt="Current testinomial image"/>
+            <img src={currentTestinomialImg} alt="Current testinomial image" />
           </div>
           <div className="current-testinomial-text">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 38" fill="none">
@@ -146,16 +161,16 @@ export default function Dashboard() {
         </section>
         <section className="testinomial-gallery-section mt-3 d-flex justify-content-between">
           <div className="testinomial-gallery-img">
-            <img src={pedingTestinomialImg}  alt="testinomial image1"/>
+            <img src={pedingTestinomialImg} alt="testinomial image1" />
           </div>
           <div className="testinomial-gallery-img">
-            <img src={pedingTestinomialImg} alt="testinomial image2"/>
+            <img src={pedingTestinomialImg} alt="testinomial image2" />
           </div>
           <div className="testinomial-gallery-img">
-            <img src={pedingTestinomialImg} alt="testinomial image3"/>
+            <img src={pedingTestinomialImg} alt="testinomial image3" />
           </div>
           <div className="testinomial-gallery-img">
-            <img src={pedingTestinomialImg} alt="testinomial image4"/>
+            <img src={pedingTestinomialImg} alt="testinomial image4" />
           </div>
         </section>
       </section>
