@@ -51,7 +51,6 @@ export default function Footer() {
         </div>
       </div>
       <div className="copyWrite-container d-flex justify-content-between" 
-      style={{color:"rgba(122, 122, 122, 1)"}}
       >
         <p className="py-0 ">&copy;2023 VidyaVerse</p>
         <ul className="d-flex">
