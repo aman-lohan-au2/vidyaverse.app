@@ -80,7 +80,7 @@
     margin-top: 225px;
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: flex-end;
     text-align: right;
     padding: 12px 23px;
 }
@@ -88,7 +88,7 @@
 .portion-rgt {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
     padding: 12px 23px;
 }
 
