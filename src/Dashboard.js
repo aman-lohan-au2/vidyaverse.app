@@ -196,22 +196,52 @@ export default function Dashboard() {
         <h1 className="explore-heading text-center">Explore <span className="explore-subheading">Vidyaverse</span></h1>
         <div className="position-relative explore-box connect-box mx-auto px-5 py-4">
           <img className="seating-astro" src={SeatingAstro} alt="Seating Astronaut" />
-          <div className="explore-left-div connect-left-box">
+          <div className="explore-left-div connect-left-box d-flex flex-column justify-content-between pb-5">
             <h3 className="connect-left-box-text"><span className="connect-left-box-subtext">Connect.</span> Grow. Thrive</h3>
+            <p className="connect-left-pra-text"> Here at Vidyaverse, Engage with the like-minded WEB3 enthusiast. Connect with more people & Build !!</p>
+            <p className="connect-left-pra-text2">Learn new skills for WEB3 Era, Understand the future of it. Upskill your WEB3 Knowledge.</p>
           </div>
           <div className="connect-right-box"></div>
         </div>
-        <div className="explore-box technology-box mx-auto my-5 px-5 py-4">
+        <div className="explore-box technology-box mx-auto my-5 px-5 d-flex justify-content-between">
           <div className="explore-left-div technology-left-box">
-            <h3 className="technology-left-box-text"><span className="technology-left-box-subtext">Explore</span>  WEB3 Technologies</h3>
+            <h3 className="technology-left-box-text mt-4"><span className="technology-left-box-subtext">Explore</span>  WEB3 Technologies</h3>
+            <p className="technology-left-pra-text">Find the best Course to learn new technologies in WEB3 Space</p>
+            <p className="technology-left-pra-text2">Interested learning? <a href="#">Enroll now</a></p>
+            <div className="technology-type-div position-relative">
+              <div className="position-absolute technology-type-defi">DeFi</div>
+              <div className="position-absolute technology-type-crypto">Cryptocurrency</div>
+              <div className="position-absolute technology-type-web3">WEB3 Wallet</div>
+              <div className="position-absolute technology-type-decen">Decentralized Storage</div>
+            </div>
           </div>
-          <div className="technology-right-box"></div>
+          <div className="technology-right-box position-relative">
+            <div className="position-absolute technology-blockchain">Blockchain</div>
+            <div className="position-absolute technology-nft">NFTs</div>
+            <div className="position-absolute technology-dapps">dApps</div>
+            <div className="position-absolute technology-privacy">Privacy Coins</div>
+            <div className="position-absolute technology-dex">DEXs</div>
+
+
+          </div>
         </div>
-        <div className="explore-box learn-box mx-auto my-5 px-5 py-4">
-          <div className="explore-left-div learn-left-box">
+        <div className="explore-box learn-box mx-auto my-5 px-5 py-4 d-flex justify-content-between">
+          <div className="explore-left-div learn-left-box d-flex flex-column justify-content-between">
             <h3 className="learn-left-box-text"><span className="learn-left-box-subtext">Learn</span> and Fun</h3>
+            <div>
+              <p className="learn-left-box-pra-text">Courses curated such that even a beginner can dive into the WEB3 space easily.</p>
+              <button className="learn-btn">View Courses
+                <img src={arrowIcon} alt="arrow icon btn" className="mx-2" />
+              </button>
+            </div>
           </div>
-          <div className="learn-right-box"></div>
+          <div className="learn-right-box position-relative">
+            <div className="learn-video-card learn-video-card1">
+              <h1>INTRODUCTION TO WEB3</h1>
+            </div>
+            <div className="learn-video-card learn-video-card2"></div>
+            <div className="learn-video-card learn-video-card3"></div>
+          </div>
         </div>
       </section>
 

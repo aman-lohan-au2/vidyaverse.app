@@ -86,7 +86,8 @@
   background: #fff;
   border: 2px solid green;
 }
-.dashboard-swiper svg{
+
+.dashboard-swiper svg {
   height: 100%;
 }
 
@@ -130,9 +131,10 @@
   background: #FAF4FF;
   margin-top: 70px;
 }
-.explore-left-div{
-  border: 2px solid red;
-  width: 48%;
+
+.explore-left-div {
+  width: 44%;
+  height: 100%;
 }
 
 .seating-astro {
@@ -140,6 +142,7 @@
   top: -27.7%;
   right: 8%;
 }
+
 /* .connect-left-box {
   border: 2px solid red;
   width: 45%;
@@ -151,6 +154,22 @@
   font-style: normal;
   font-weight: 600;
   line-height: 117%;
+}
+
+.connect-left-pra-text {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+}
+
+.connect-left-pra-text2 {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
 }
 
 .connect-left-box-subtext {
@@ -182,6 +201,79 @@
   line-height: 117%;
 }
 
+.technology-left-pra-text {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  width: 486px;
+  margin-top: 20px;
+}
+
+.technology-left-pra-text2 {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+}
+
+.technology-type-div {
+  height: 150px;
+}
+
+.technology-type-defi {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 100px;
+  border: 1px solid #000;
+  background: #FFD5B7;
+  bottom: 59px;
+}
+
+.technology-type-crypto {
+  display: inline-flex;
+  transform: rotate(13.217deg);
+  padding: 16px 35px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 100px;
+  border: 1px solid #000;
+  background: #8DE5C2;
+  left: 92px;
+  bottom: 75px;
+}
+
+.technology-type-web3 {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 100px;
+  border: 1px solid #000;
+  background: #9FD1FB;
+  bottom: 0;
+}
+
+.technology-type-decen {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 100px;
+  border: 1px solid #000;
+  background: #FFD5B7;
+  bottom: 0;
+  left: 160px;
+}
+
 .technology-left-box-subtext {
   background: linear-gradient(360deg, #FF7A00 11.46%, #FFB7A7 100%);
   background-clip: text;
@@ -190,7 +282,74 @@
 }
 
 
-.technology-right-box {}
+.technology-right-box {
+  width: 50%;
+}
+
+.technology-blockchain {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 100px;
+  border: 1px solid #000;
+  background: #9FD1FB;
+  bottom: 60px;
+  left: 50px;
+}
+
+.technology-nft {
+  display: inline-flex;
+  transform: rotate(17.587deg);
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 100px;
+  border: 1px solid #000;
+  background: #9FD1FB;
+  bottom: 57px;
+  left: 220px;
+}
+
+.technology-dapps {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 100px;
+  border: 1px solid #000;
+  background: #FFD5B7;
+  bottom: 0;
+}
+
+.technology-privacy {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 100px;
+  border: 1px solid #000;
+  background: #8DE5C2;
+  bottom: 0;
+  left: 117px;
+}
+
+.technology-dex {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 100px;
+  border: 1px solid #000;
+  background: #8DE5C2; 
+  bottom: 0;
+  left: 300px; 
+}
 
 .learn-box {
   border: 0.25px solid #0085FF;
@@ -217,8 +376,63 @@
   -webkit-text-fill-color: transparent;
 }
 
+.learn-left-box-pra-text {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  width: 486px;
 
-.learn-right-box {}
+}
+
+.learn-btn {
+  display: inline;
+  padding: 16px 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  border-radius: 144px;
+  border: 0.25px solid #2D2D2D;
+  background: #FFF;
+}
+
+.learn-right-box {
+  width: 53%;
+}
+
+.learn-video-card {
+  width: 369px;
+  height: 236px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  border: 0.25px solid #2D2D2D;
+  background: #FFF;
+}
+
+.learn-video-card1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-70%, -40%);
+  z-index: 3;
+}
+
+.learn-video-card2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, -50%);
+  z-index: 2;
+}
+
+.learn-video-card3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  z-index: 1;
+}
 
 /* ---------- Course Offer Section ----- */
 
