@@ -1,7 +1,3 @@
-.contact-section {}
-
-
-
 .contact-title {
     color: #2D2D2D;
     /* text-align: center; */
@@ -17,10 +13,6 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 4rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 136%;
 }
 
 .contact-img {
@@ -111,6 +103,7 @@
     .contact-title {
         text-align: center;
         margin-left: 0%;
+        font-size: 3rem;
     }
 
     .contact-section-wrapper {
@@ -143,4 +136,10 @@
         margin: auto;
     }
 
+}
+
+@media screen and (max-width:335px) {
+    .contact-title {
+        font-size: 2rem;
+    }
 }
