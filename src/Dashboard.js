@@ -194,14 +194,26 @@ export default function Dashboard() {
       {/* --------------- Explore Section ------------ */}
       <section className="explore-container mt-5">
         <h1 className="explore-heading text-center">Explore <span className="explore-subheading">Vidyaverse</span></h1>
-        <div className="position-relative explore-box connect-box mx-auto px-5 py-4">
+        <div className="position-relative explore-box connect-box mx-auto px-5 py-4 d-flex justify-content-between">
           <img className="seating-astro" src={SeatingAstro} alt="Seating Astronaut" />
           <div className="explore-left-div connect-left-box d-flex flex-column justify-content-between pb-5">
             <h3 className="connect-left-box-text"><span className="connect-left-box-subtext">Connect.</span> Grow. Thrive</h3>
             <p className="connect-left-pra-text"> Here at Vidyaverse, Engage with the like-minded WEB3 enthusiast. Connect with more people & Build !!</p>
             <p className="connect-left-pra-text2">Learn new skills for WEB3 Era, Understand the future of it. Upskill your WEB3 Knowledge.</p>
           </div>
-          <div className="connect-right-box"></div>
+          <div className="connect-right-box position-relative mt-1">
+            {/* <div className="connect-outer-penta"></div> */}
+
+            <div className="connect-pentagon connect-pentagon1">
+              <img src={pedingTestinomialImg} alt=""/>
+            </div>
+            <div className="connect-pentagon connect-pentagon2"><img src={pedingTestinomialImg} alt=""/></div>
+            <div className="connect-pentagon connect-pentagon3"><img src={pedingTestinomialImg} alt=""/></div>
+            <div className="connect-pentagon connect-pentagon4"><img src={pedingTestinomialImg} alt=""/></div>
+            <div className="connect-pentagon connect-pentagon5"><img src={pedingTestinomialImg} alt=""/></div>
+            <div className="connect-pentagon connect-pentagon6"><img src={pedingTestinomialImg} alt=""/></div>
+            <div className="connect-pentagon connect-pentagon7"><img src={pedingTestinomialImg} alt=""/></div>
+          </div>
         </div>
         <div className="explore-box technology-box mx-auto my-5 px-5 d-flex justify-content-between">
           <div className="explore-left-div technology-left-box">

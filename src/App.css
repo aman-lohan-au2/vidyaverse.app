@@ -133,7 +133,7 @@
 }
 
 .explore-left-div {
-  width: 44%;
+  width: 48%;
   height: 100%;
 }
 
@@ -180,7 +180,66 @@
 }
 
 
-.connect-right-box {}
+.connect-right-box {
+  height: 98%;
+  width:33%;
+  margin-right: 3%;
+}
+
+/* .connect-outer-penta {
+  height:400px;
+  width: 400px;
+  border: 2px solid red;
+  clip-path: polygon(0 25%, 51% 1%, 100% 21%, 98% 78%, 52% 100%, 0 76%);
+} */
+.connect-pentagon {
+  height: 90px;
+  width: 80px;
+  position: absolute;
+  clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 78%, 50% 100%, 0 78%);
+}
+
+.connect-pentagon img {
+  height: 100%;
+  width: 100%;
+}
+
+.connect-pentagon1 {
+  top: 25%;
+  left: 0%;
+  transform: translateY(-50%);
+}
+.connect-pentagon2 {
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.connect-pentagon3 {
+  top: 25%;
+  right: 0%;
+  transform: translateY(-50%);
+}
+.connect-pentagon4 {
+  top: 70%;
+  right: 0%;
+  transform: translateY(-50%);
+}
+.connect-pentagon5 {
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.connect-pentagon6 {
+  top: 70%;
+  left: 0%;
+  transform: translateY(-50%);
+}
+
+.connect-pentagon7 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 
 .technology-box {
@@ -189,8 +248,8 @@
 }
 
 /* .technology-left-box {
-  border: 2px solid red;
-  width: 45%;
+  width: 50%;
+  height: 100%;
 } */
 
 .technology-left-box-text {
@@ -346,9 +405,9 @@
   gap: 4px;
   border-radius: 100px;
   border: 1px solid #000;
-  background: #8DE5C2; 
+  background: #8DE5C2;
   bottom: 0;
-  left: 300px; 
+  left: 300px;
 }
 
 .learn-box {
