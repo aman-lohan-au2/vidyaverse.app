@@ -65,6 +65,7 @@
 .roadmap {
     width: 85%;
     height: 900px;
+    display: flex;
 }
 
 
@@ -148,7 +149,18 @@
 
 .roadmap-portion-text {
     width: 85%;
+} 
+
+/* Phone Roadmap */
+.phone-roadmap{
+    display: none;
 }
+
+.phone-roadmap-container{
+    width:100%
+}
+
+
 
 /* ------------ Carousel Section -------------------*/
 .carousel-section {
@@ -303,5 +315,62 @@
 @media screen and (max-width:900px) {
     .roadmap {
         width: 100%;
+    }
+}
+@media screen and (max-width:768px) {
+    .about-roadmap-title{
+        font-size: 2.6rem;
+    }
+    .roadmap {
+        display: none;
+    }
+    .phone-roadmap{
+        width:93%;
+        height: 850px;
+        display: flex;
+    }
+    .roadmap-portion {
+        height:210px;
+    }
+    .portion-rgt {
+        padding: 8px 13px 8px 23px;
+    }
+    .roadmap-portion-btn {
+        padding: 8px 17px;
+    }
+}
+@media screen and (max-width:600px) {
+    .phone-roadmap{
+        height: 1000px;
+    }
+    .roadmap-portion {
+        height:250px;
+    }
+}
+@media screen and (max-width:420px) {
+    .about-roadmap-title{
+        font-size: 2rem;
+    }
+    .phone-roadmap{
+        height: 1200px;
+    }
+    .roadmap-portion {
+        height:300px;
+    }
+}
+@media screen and (max-width:360px) {
+    .phone-roadmap{
+        height: 1300px;
+    }
+    .roadmap-portion {
+        height:320px;
+    }
+}
+@media screen and (max-width:300px) {
+    .phone-roadmap{
+        height: 1480px;
+    }
+    .roadmap-portion {
+        height:370px;
     }
 }
