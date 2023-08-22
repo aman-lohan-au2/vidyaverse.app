@@ -11,10 +11,10 @@ const Blog = () => {
       <Navbar />
       <section className="blog-section" >
         <h1 className="text-center m-auto mb-5 blog-title"> Writings from<br /> <span className="blog-subtitle">Our Team</span> </h1>
-        <div className="blog-card-container w-75 m-auto">
-          {arr?.map((ele) => (
-            <div className="col-md-4 mt-4">
-              <div className="card blog-card overflow-hidden p-3">
+        <div className="blog-card-container m-auto">
+          {arr?.map((ele,index) => (
+            // <div key={index} className="col-md-4 mt-4 border border-danger">
+              <div key={index} className="card blog-card overflow-hidden p-3 m-auto">
                 <img className="card-img-top" src={lady} alt="Card image cap" />
                 <div className="card-body p-0 pt-2">
                   <small className="card-text" > Thursday, 11 AM IST, 3RD AUGUST 2023</small>
@@ -25,7 +25,7 @@ const Blog = () => {
                   <br />
                   <button className="blog-card-btn mt-3">  Web3 </button>
                 </div>
-              </div>
+              {/* </div> */}
             </div>
           ))}
 
