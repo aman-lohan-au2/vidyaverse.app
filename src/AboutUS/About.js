@@ -17,6 +17,7 @@ const About = () => {
           <p className="text-center"> Learn, Innovate, Transform <br /> Web 3 Education Redefining the Future! </p>
         </div>
       </section>
+      {/* ---------- RoadMap Section ------------------- */}
       <section className="about-video-section" >
         <div className="m-auto  about-video-div ">
           <div className=" about-video-subdiv position-relative" >
