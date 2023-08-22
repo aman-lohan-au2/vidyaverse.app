@@ -152,12 +152,13 @@
 
 /* ------------ Carousel Section -------------------*/
 .carousel-section {
-    height: 30vh;
+    /* height: 30vh; */
     border: 2px solid red;
 }
 
 .about-carousel-title {
     font-size: 24px;
+    margin: 4% 0%;
 }
 
 /* --------------- Core Value Section  ----------------*/
