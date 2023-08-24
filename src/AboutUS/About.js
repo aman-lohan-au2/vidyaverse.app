@@ -110,25 +110,25 @@ const About = () => {
       <section className="core-section-section my-5 ">
         <h1 className="text-center core-value-title mb-5">Our <span className="core-value-subtitle">CoreValues</span></h1>
         <div className="core-value-row m-auto">
-          <div class="card core-section-card">
-            <div class="card-body">
-              {/* <h5 class="card-title">Special title treatment</h5> */}
-              {/* <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> */}
-              {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+          <div className="card core-section-card m-auto">
+            <div className="card-body">
+              {/* <h5 className="card-title">Special title treatment</h5> */}
+              {/* <p className="card-text">With supporting text below as a natural lead-in to additional content.</p> */}
+              {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
             </div>
           </div>
-          <div class="card core-section-card">
-            <div class="card-body">
-              {/* <h5 class="card-title">Special title treatment</h5> */}
-              {/* <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> */}
-              {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+          <div className="card core-section-card m-auto">
+            <div className="card-body">
+              {/* <h5 className="card-title">Special title treatment</h5> */}
+              {/* <p className="card-text">With supporting text below as a natural lead-in to additional content.</p> */}
+              {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
             </div>
           </div>
-          <div class="card core-section-card">
-            <div class="card-body">
-              {/* <h5 class="card-title">Special title treatment</h5> */}
-              {/* <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> */}
-              {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+          <div className="card core-section-card m-auto">
+            <div className="card-body">
+              {/* <h5 className="card-title">Special title treatment</h5> */}
+              {/* <p className="card-text">With supporting text below as a natural lead-in to additional content.</p> */}
+              {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
             </div>
           </div>
         </div>
