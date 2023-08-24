@@ -1,3 +1,4 @@
+import React, { useEffect, useState } from 'react'
 import Footer from "./Component/Footer";
 import Navbar from "./Component/Navbar";
 import "./App.css";
@@ -25,6 +26,27 @@ import 'swiper/css/pagination';
 import { Autoplay } from 'swiper/modules';
 
 export default function Dashboard() {
+  const [sliderNum, setSliderNum] = useState(4)
+
+  useEffect(() => {
+    const screenWidth = window.screen.width;
+
+    if (screenWidth > 1450) {
+      setSliderNum(5)
+    }
+    else if (screenWidth > 1000) {
+      setSliderNum(4)
+    }
+    else if (screenWidth > 768) {
+      setSliderNum(3)
+    }
+    else if (screenWidth > 500) {
+      setSliderNum(2)
+    }
+    else if (screenWidth < 500) {
+      setSliderNum(1)
+    }
+  }, [])
   return (
     <div className="App" >
       <section className="landing-section" style={{ paddingTop: "20px" }}>
@@ -45,7 +67,7 @@ export default function Dashboard() {
       <section className="landing-carousel mt-5 pt-5">
         <h1 className="landing-carousel-title text-center">Our Team comes from</h1>
         <Swiper
-          slidesPerView={4}
+          slidesPerView={sliderNum}
           spaceBetween={30}
           grabCursor={true}
           loop={true}
@@ -192,7 +214,7 @@ export default function Dashboard() {
       </section>
 
       {/* --------------- Explore Section ------------ */}
-      <section className="explore-container mt-5">
+      <section className="explore-container mt-5 ">
         <h1 className="explore-heading text-center">Explore <span className="explore-subheading">Vidyaverse</span></h1>
         <div className="position-relative explore-box connect-box mx-auto px-5 py-4 d-flex justify-content-between">
           <img className="seating-astro" src={SeatingAstro} alt="Seating Astronaut" />
@@ -205,36 +227,36 @@ export default function Dashboard() {
             {/* <div className="connect-outer-penta"></div> */}
 
             <div className="connect-pentagon connect-pentagon1">
-              <img src={pedingTestinomialImg} alt=""/>
+              <img src={pedingTestinomialImg} alt="" />
             </div>
-            <div className="connect-pentagon connect-pentagon2"><img src={pedingTestinomialImg} alt=""/></div>
-            <div className="connect-pentagon connect-pentagon3"><img src={pedingTestinomialImg} alt=""/></div>
-            <div className="connect-pentagon connect-pentagon4"><img src={pedingTestinomialImg} alt=""/></div>
-            <div className="connect-pentagon connect-pentagon5"><img src={pedingTestinomialImg} alt=""/></div>
-            <div className="connect-pentagon connect-pentagon6"><img src={pedingTestinomialImg} alt=""/></div>
-            <div className="connect-pentagon connect-pentagon7"><img src={pedingTestinomialImg} alt=""/></div>
+            <div className="connect-pentagon connect-pentagon2"><img src={pedingTestinomialImg} alt="" /></div>
+            <div className="connect-pentagon connect-pentagon3"><img src={pedingTestinomialImg} alt="" /></div>
+            <div className="connect-pentagon connect-pentagon4"><img src={pedingTestinomialImg} alt="" /></div>
+            <div className="connect-pentagon connect-pentagon5"><img src={pedingTestinomialImg} alt="" /></div>
+            <div className="connect-pentagon connect-pentagon6"><img src={pedingTestinomialImg} alt="" /></div>
+            <div className="connect-pentagon connect-pentagon7"><img src={pedingTestinomialImg} alt="" /></div>
           </div>
         </div>
-        <div className="explore-box technology-box mx-auto my-5 px-5 d-flex justify-content-between">
-          <div className="explore-left-div technology-left-box">
+        <div className="technology-box mx-auto my-5 px-5">
+          <div className="technology-left-box">
             <h3 className="technology-left-box-text mt-4"><span className="technology-left-box-subtext">Explore</span>  WEB3 Technologies</h3>
             <p className="technology-left-pra-text">Find the best Course to learn new technologies in WEB3 Space</p>
             <p className="technology-left-pra-text2">Interested learning? <a href="#">Enroll now</a></p>
+          </div>
+          <div className="technology-right-box  d-flex align-items-end">
             <div className="technology-type-div position-relative">
               <div className="position-absolute technology-type-defi">DeFi</div>
               <div className="position-absolute technology-type-crypto">Cryptocurrency</div>
               <div className="position-absolute technology-type-web3">WEB3 Wallet</div>
               <div className="position-absolute technology-type-decen">Decentralized Storage</div>
             </div>
-          </div>
-          <div className="technology-right-box position-relative">
-            <div className="position-absolute technology-blockchain">Blockchain</div>
-            <div className="position-absolute technology-nft">NFTs</div>
-            <div className="position-absolute technology-dapps">dApps</div>
-            <div className="position-absolute technology-privacy">Privacy Coins</div>
-            <div className="position-absolute technology-dex">DEXs</div>
-
-
+            <div className='technology-type-div2'>
+              <div className="position-absolute technology-blockchain">Blockchain</div>
+              <div className="position-absolute technology-nft">NFTs</div>
+              <div className="position-absolute technology-dapps">dApps</div>
+              <div className="position-absolute technology-privacy">Privacy Coins</div>
+              <div className="position-absolute technology-dex">DEXs</div>
+            </div>
           </div>
         </div>
         <div className="explore-box learn-box mx-auto my-5 px-5 py-4 d-flex justify-content-between">
@@ -274,9 +296,9 @@ export default function Dashboard() {
       </section>
 
       {/* -------------- Key Section --------------------- */}
-      <section className="key-section">
+      <section className="key-section ">
         <h1 className="key-section-title text-center">Key <span className="key-section-subtitle">Numbers</span> to know</h1>
-        <div className="key-div-container d-flex justify-content-around align-items-center">
+        <div className="key-div-container ">
           <div className="key-div d-flex flex-column align-items-center justify-content-center">
             <img className="key-img" src={handshakeImg} alt="Handsacking img" />
             <h1 className="key-head m-0">20+</h1>
